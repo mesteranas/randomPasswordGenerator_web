@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>random password Generator</title>
+  <style>
+    body{display: block;}
+  </style>
+</head>
+<body>
+  <h1>random password Generator</h1>
+  <label><input type="checkbox" id="kbl" checked> Capital letters</label>
+  <label><input type="checkbox" id="sml" checked> Small letters</label>
+  <label><input type="checkbox" id="num" checked> Numbers</label>
+  <label><input type="checkbox" id="sy" checked> Symbols</label>
+  <label for="length">password length</label>
+  <input type="number" id="length" min="5" max="5000000" value="12">
+  <button id="generate">Generate</button>
+  <label for="result">result</label>
+  <textarea id="result" readonly></textarea>
+  <script src="script.js"></script>
+</body>
+</html>
